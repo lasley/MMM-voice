@@ -33,7 +33,7 @@ echo -e "\e[0m"
 
 # installing packages
 echo -e "\e[96m[STEP 1/5] Installing Packages\e[90m"
-if sudo apt-get install bison libasound2-dev autoconf automake libtool python-dev swig python-pip -y ;
+if sudo apt-get install bison libasound2-dev autoconf automake libtool python3-dev swig python3-pip -y ;
 then
     echo -e "\e[32m[STEP 1/5] Installing Packages | Done\e[0m"
 else
